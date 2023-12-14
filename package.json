@@ -1,9 +1,9 @@
 {
-  "name": "lunarstack",
-  "version": "0.1.0",
-  "author": "actuallylost",
-  "license": "MIT",
-  "type": "module",
+	"name": "lunarstack",
+	"version": "0.1.0",
+	"author": "actuallylost",
+	"license": "MIT",
+	"type": "module",
 	"scripts": {
 		"prepare": "husky install"
 	},
@@ -11,10 +11,10 @@
 		"husky": "^8.0.3"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.5.1",
-		"@commitlint/config-conventional": "^17.4.4",
-		"eslint-config-prettier": "^8.3.0",
-		"lint-staged": "^13.2.0",
-		"prettier": "^2.8.7"
+		"@commitlint/cli": "^18.4.3",
+		"@commitlint/config-conventional": "^18.4.3",
+		"eslint-config-prettier": "^9.1.0",
+		"lint-staged": "^15.2.0",
+		"prettier": "^3.1.1"
 	}
 }
