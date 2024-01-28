@@ -1,0 +1,14 @@
+generator client {
+  provider = "cargo prisma"
+  output   = "../prisma-client/src/prisma.rs"
+}
+
+datasource db {
+  provider = "postgres"
+  url      = env("DATABASE_URL")
+}
+
+// Add your models here
+model TestModel {
+  id String @id
+}
