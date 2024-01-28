@@ -8,7 +8,6 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-// Add your models here
 model TestModel {
   id String @id
 }

@@ -18,6 +18,6 @@
 		"prettier": "^3.1.1"
 	},
 	"prisma": {
-		"schema": "crates/prisma-client/prisma/schema.prisma"
+		"schema": "crates/prisma/prisma/schema.prisma"
 	}
 }
