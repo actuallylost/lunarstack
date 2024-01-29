@@ -14,7 +14,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - name: Run tests
-              run: cargo test --verbose
             - name: Generate prisma client
               run: cargo prisma generate
+            - name: Run tests
+              run: cargo test --verbose
