@@ -16,6 +16,7 @@ jobs:
         permissions:
             # required for all workflows
             security-events: write
+            # Uncomment the following lines if you're using this template in a private repository
             # actions: read
             # contents: read
         strategy:
