@@ -5,7 +5,6 @@ use tokio::sync::RwLock;
 use warp::Filter;
 
 #[tokio::main]
-
 async fn main() -> Result<()> {
     // create prisma client
     let client = prisma::new_client()

@@ -6,3 +6,7 @@ members = [
    "crates/*",
    "tools/*",
 ]
+
+exclude = [
+   "services/nest-api"
+]
