@@ -11,7 +11,7 @@ In order to be able to run the project, you will need to have the following inst
 -   [Rust](https://www.rust-lang.org/)
 -   [Docker](https://www.docker.com/)
 
-If you'd like to use `Rust` and the `Warp` stack, you will need to install both `Node` and `Rust`, otherwise you only need `Node`.
+If you'd like to use `Rust-Warp` stack, you will need to install both `Node` and `Rust`, otherwise you only need `Node`.
 
 ## Available Flavors
 
