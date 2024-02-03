@@ -1,5 +1,12 @@
 [workspace]
+resolver = "2"
 
 members = [
-   "crates/**",
+   "services/*",
+   "crates/*",
+   "tools/*",
+]
+
+exclude = [
+   "services/nest-api"
 ]
