@@ -11,7 +11,7 @@ In order to be able to run the project, you will need to have the following inst
 -   [Rust](https://www.rust-lang.org/)
 -   [Docker](https://www.docker.com/)
 
-If you'd like to use `Rust-Warp` stack, you will need to install both `Node` and `Rust`, otherwise you only need `Node`.
+If you'd like to use `Rust-Axum` stack, you will need to install both `Node` and `Rust`, otherwise you only need `Node`.
 
 ## Available Flavors
 
@@ -20,11 +20,11 @@ There are different apps and services you can combine to use as a stack:
 -   `apps/web` - A web app written in `Next`.
 -   `apps/tauri-web` - A web app written in `Next` and `Tauri`.
 -   `services/nest-api` - An API written in `Node` and `NestJS`.
--   `services/warp-api` - An API written in `Rust` and `Warp`.
+-   `services/axum-api` - An API written in `Rust` and `Axum`.
 
 There are also available crates if you want to use `Rust`:
 
--   `crates/prisma` - A crate to use `Prisma` with `Warp`.
+-   `crates/prisma` - A crate to use `Prisma` with `Axum`.
 
 ## Installing Dependencies
 
