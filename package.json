@@ -1,6 +1,6 @@
 {
 	"name": "lunarstack",
-	"version": "0.3.2",
+	"version": "0.4.0",
 	"author": "actuallylost",
 	"license": "MIT",
 	"type": "module",
@@ -8,14 +8,14 @@
 		"prepare": "husky"
 	},
 	"dependencies": {
-		"husky": "^9.0.10"
+		"husky": "^9"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^18.4.3",
-		"@commitlint/config-conventional": "^18.4.3",
-		"eslint-config-prettier": "^9.1.0",
-		"lint-staged": "^15.2.0",
-		"prettier": "^3.1.1"
+		"@commitlint/cli": "^19",
+		"@commitlint/config-conventional": "^19",
+		"eslint-config-prettier": "^10",
+		"lint-staged": "^15",
+		"prettier": "^3"
 	},
 	"prisma": {
 		"schema": "crates/prisma/prisma/schema.prisma"

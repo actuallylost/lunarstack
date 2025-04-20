@@ -1,4 +1,3 @@
 packages:
     - apps/web
     - apps/tauri-web
-    - services/nest-api
