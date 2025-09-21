@@ -1,21 +1,32 @@
-module.exports = {
-	env: {
-		browser: true,
-		es2021: true,
-		node: true,
+import { defineConfig, globalIgnores } from "eslint/config";
+import globals from "globals";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import js from "@eslint/js";
+import { FlatCompat } from "@eslint/eslintrc";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const compat = new FlatCompat({
+	baseDirectory: __dirname,
+	recommendedConfig: js.configs.recommended,
+	allConfig: js.configs.all,
+});
+
+export default defineConfig([
+	globalIgnores(["**/*.js"]),
+	{
+		extends: compat.extends("eslint:recommended", "prettier"),
+
+		languageOptions: {
+			globals: {
+				...globals.browser,
+				...globals.node,
+			},
+
+			parser: tsParser,
+			ecmaVersion: "latest",
+			sourceType: "module",
+		},
 	},
-	extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
-	overrides: [],
-	parser: "@typescript-eslint/parser",
-	parserOptions: {
-		ecmaVersion: "latest",
-		sourceType: "module",
-	},
-	plugins: ["@typescript-eslint"],
-	rules: {
-		indent: ["error", "tab"],
-		"linebreak-style": ["error", "unix"],
-		quotes: ["error", "double"],
-		semi: ["error", "always"],
-	},
-};
+]);
