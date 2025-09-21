@@ -4,5 +4,4 @@ This directory contains the available apps that can be used as a frontend for th
 
 ## Available Apps
 
--   `web` - A web app written in `Next`.
--   `tauri-web` - A web app written in `Next` and `Tauri`.
+- `web` - A web app written in `Next`.

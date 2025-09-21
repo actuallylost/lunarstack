@@ -11,12 +11,9 @@ In order to be able to run the project, you will need to have the following inst
 - [Rust](https://www.rust-lang.org/)
 - [Docker](https://www.docker.com/)
 
-## Available Flavors
+## Stack
 
-The template allows you to choose between the following flavors for the your application:
-
-- `apps/web` - A web app written in `Next`.
-- `apps/tauri-web` - A cross-platform app written in `Next` and `Tauri`.
+The web app is written in `TypeScript` and `React` with `Next.js` as the framework.
 
 The service is written in `Rust` and `Axum` and can be used as a backend for the web app.
 

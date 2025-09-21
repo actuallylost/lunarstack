@@ -1,3 +1,6 @@
 packages:
-    - apps/web
-    - apps/tauri-web
+  - apps/web
+  - apps/tauri-web
+
+onlyBuiltDependencies:
+  - unrs-resolver
